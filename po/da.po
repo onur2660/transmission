@@ -43,7 +43,7 @@ msgstr "Sortér efter k_ø"
 
 #: ../gtk/actions.c:35
 msgid "Sort by Rati_o"
-msgstr "Sortér efter forh_old"
+msgstr "Sortér efter Rati_o"
 
 #: ../gtk/actions.c:36
 msgid "Sort by Stat_e"
@@ -263,11 +263,11 @@ msgstr "Brug globale indstillinger"
 
 #: ../gtk/details.c:487
 msgid "Seed regardless of ratio"
-msgstr "Seed uanset forhold"
+msgstr "Seed uanset ratio"
 
 #: ../gtk/details.c:488
 msgid "Stop seeding at ratio:"
-msgstr "Stop med at seede ved forhold:"
+msgstr "Stop med at seede ved ratio:"
 
 #: ../gtk/details.c:498
 msgid "Seed regardless of activity"
@@ -305,7 +305,7 @@ msgstr "Grænser for seed"
 
 #: ../gtk/details.c:564
 msgid "_Ratio:"
-msgstr "_Forhold:"
+msgstr "_Ratio:"
 
 #: ../gtk/details.c:573
 msgid "_Idle:"
@@ -429,7 +429,7 @@ msgstr "%1$s (+%2$s ødelagt)"
 #: ../gtk/details.c:1042
 #, c-format
 msgid "%s (Ratio: %s)"
-msgstr "%s (Forhold: %s)"
+msgstr "%s (Ratio: %s)"
 
 #: ../gtk/details.c:1084
 msgid "No errors"
@@ -1244,7 +1244,7 @@ msgstr "Nuværende session"
 
 #: ../gtk/stats.c:142 ../gtk/stats.c:164
 msgid "Ratio:"
-msgstr "Forhold:"
+msgstr "Ratio:"
 
 #: ../gtk/stats.c:146 ../gtk/stats.c:168
 msgid "Duration:"
@@ -1271,7 +1271,7 @@ msgstr "%1$s af %2$s (%3$s%%)"
 #: ../gtk/torrent-cell-renderer.c:75
 #, c-format
 msgid "%1$s of %2$s (%3$s%%), uploaded %4$s (Ratio: %5$s Goal: %6$s)"
-msgstr "%1$s af %2$s (%3$s%%), uploadet %4$s (forhold: %5$s, mål: %6$s)"
+msgstr "%1$s af %2$s (%3$s%%), uploadet %4$s (ratio: %5$s, mål: %6$s)"
 
 #. %1$s is how much we've got,
 #. %2$s is the torrent's total size,
@@ -1281,7 +1281,7 @@ msgstr "%1$s af %2$s (%3$s%%), uploadet %4$s (forhold: %5$s, mål: %6$s)"
 #: ../gtk/torrent-cell-renderer.c:91
 #, c-format
 msgid "%1$s of %2$s (%3$s%%), uploaded %4$s (Ratio: %5$s)"
-msgstr "%1$s af %2$s (%3$s%%), uploadet %4$s (forhold: %5$s)"
+msgstr "%1$s af %2$s (%3$s%%), uploadet %4$s (ratio: %5$s)"
 
 #. %1$s is the torrent's total size,
 #. %2$s is how much we've uploaded,
@@ -1290,7 +1290,7 @@ msgstr "%1$s af %2$s (%3$s%%), uploadet %4$s (forhold: %5$s)"
 #: ../gtk/torrent-cell-renderer.c:108
 #, c-format
 msgid "%1$s, uploaded %2$s (Ratio: %3$s Goal: %4$s)"
-msgstr "%1$s, uploadet %2$s (forhold: %3$s, mål: %4$s)"
+msgstr "%1$s, uploadet %2$s (ratio: %3$s, mål: %4$s)"
 
 #. %1$s is the torrent's total size,
 #. %2$s is how much we've uploaded,
@@ -1298,7 +1298,7 @@ msgstr "%1$s, uploadet %2$s (forhold: %3$s, mål: %4$s)"
 #: ../gtk/torrent-cell-renderer.c:120
 #, c-format
 msgid "%1$s, uploaded %2$s (Ratio: %3$s)"
-msgstr "%1$s, uploadet %2$s (forhold: %3$s)"
+msgstr "%1$s, uploadet %2$s (ratio: %3$s)"
 
 #: ../gtk/torrent-cell-renderer.c:135
 msgid "Remaining time unknown"
@@ -1491,7 +1491,7 @@ msgstr "Begrænsninger"
 
 #: ../gtk/tr-prefs.c:336
 msgid "Stop seeding at _ratio:"
-msgstr "Stop med at seede ved _forhold:"
+msgstr "Stop med at seede ved _ratio:"
 
 #: ../gtk/tr-prefs.c:343
 msgid "Stop seeding if idle for _N minutes:"
@@ -1828,11 +1828,11 @@ msgstr "Torrent"
 
 #: ../gtk/tr-window.c:220
 msgid "Total Ratio"
-msgstr "Totalt forhold"
+msgstr "Totalt ratio"
 
 #: ../gtk/tr-window.c:221
 msgid "Session Ratio"
-msgstr "Sessionsforhold"
+msgstr "Sessionsratio"
 
 #: ../gtk/tr-window.c:222
 msgid "Total Transfer"
@@ -1883,17 +1883,17 @@ msgstr "Begræns uploadhastighed"
 
 #: ../gtk/tr-window.c:492
 msgid "Stop Seeding at Ratio"
-msgstr "Stop med at seede ved forhold"
+msgstr "Stop med at seede ved ratio"
 
 #: ../gtk/tr-window.c:525
 #, c-format
 msgid "Stop at Ratio (%s)"
-msgstr "Stop ved forhold (%s)"
+msgstr "Stop ved ratio (%s)"
 
 #: ../gtk/tr-window.c:750 ../gtk/tr-window.c:776
 #, c-format
 msgid "Ratio: %s"
-msgstr "Forhold: %s"
+msgstr "Ratio: %s"
 
 #. Translators: "size|" is here for disambiguation. Please remove it from your translation.
 #. %1$s is the size of the data we've downloaded
@@ -2340,11 +2340,12 @@ msgstr "Trackerfejl: \"%s\""
 
 #: ../libtransmission/torrent.c:915
 msgid "No data found! Ensure your drives are connected or use \"Set Location\". To re-download, remove the torrent and re-add it."
-msgstr "Ingen data fundet! Sørg for at dine drev er forbundet eller bruge \"Angiv placering\". Fjern torrenten og tilføj den igen, for at downloade den igen."
+msgstr "Ingen data fundet! Sørg for at dine drev er forbundet eller brug \"Angiv placering\". Fjern torrenten og tilføj den igen, for at downloade den igen."
 
 #: ../libtransmission/torrent.c:1864
 msgid "Restarted manually -- disabling its seed ratio"
-msgstr "Genstartet manuelt -- deaktivere dens seed forhold"
+msgstr "Manuelt genstartet -- deaktivere
+seed ratio"
 
 #: ../libtransmission/torrent.c:2074
 msgid "Removing torrent"
